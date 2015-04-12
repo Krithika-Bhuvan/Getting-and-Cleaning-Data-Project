@@ -1,5 +1,4 @@
-# get.clean.data.project
-Project for Getting and Cleaning Data Coursera project
+### Description of script ( Getting and Cleaning Data Coursera project)
 
 * Training dataset
   *	```x_train``` : measurement data in training set (7352 x 561 matrix)
