@@ -30,8 +30,8 @@ Activity id   | New Activity ID
   * melt the grouped data, so that it will keep ```subject_id``` and ```activity_id``` and melt everything else into a narrow column called ```"variable"```
   * Keeping the ```subject_id``` and  ```activity_id``` on the left side, apply ```mean()``` on the ```"variable"``` column using ```dcast```
   * Final table: 180x68 data frame 
-  * Write final data frame to text file (tidy.data1.txt)
+  * Write final data frame to text file (```tidy.data1.txt```)
 
 * OR use Method 2 (using loops)
   * Use ```aggregate``` and ```sapply``` (using function ) to calculalate ```mean``` for every ```subject id``` and every ```activity id```
-  * Final table: 180x68 data frame - Write final data frame to text file(tidy.data2.txt)
+  * Final table: 180x68 data frame - Write final data frame to text file(```tidy.data2.txt```)
